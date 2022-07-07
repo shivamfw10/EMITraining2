@@ -1,0 +1,55 @@
+<app-menu></app-menu>
+<!-- <app-book-list></app-book-list> -->
+<div class="container">
+    <mat-grid-list cols="4" rowHeight="130px" gutterSize="30px">
+        <mat-grid-tile>
+        <mat-card class="card">
+            <mat-card-title>
+                Total No of Books
+            </mat-card-title>
+            <mat-card-content>
+                <div class="card_container">
+                    <span class="card_num">{{bookData.length}}</span>
+                    <mat-icon style="font-size:80px;">book</mat-icon>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="card">
+                <mat-card-title>
+                    Total No of Users
+                </mat-card-title>
+                <mat-card-content>
+                    <div class="card_container">
+                        <span class="card_num">{{this.userCount(this.userData)}}</span>
+                        <mat-icon style="font-size:80px;">people</mat-icon>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="card">
+                <mat-card-title>
+                    Assigned Books
+                </mat-card-title>
+                <mat-card-content>
+                    <span class="card_num">20</span>
+                    <mat-icon style="font-size:80px;">library_books</mat-icon>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="card">
+                <mat-card-title>
+                    Overdue Books
+                </mat-card-title>
+                <mat-card-content>
+                    <span class="card_num">20</span>
+                    <mat-icon style="font-size:80px;">timer_off</mat-icon>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        
+      </mat-grid-list>
+</div>

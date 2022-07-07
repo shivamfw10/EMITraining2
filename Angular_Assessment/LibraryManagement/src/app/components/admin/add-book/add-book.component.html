@@ -1,0 +1,57 @@
+<app-menu></app-menu>
+<div class="container">
+  <mat-card class="outer-box">
+    <mat-card-header>
+      <mat-card-title>
+        <mat-icon>auto_stories</mat-icon>
+        Add Book
+      </mat-card-title>
+    </mat-card-header>
+    <form [formGroup]="formBook" (ngSubmit)="AddBook(formBook.value)">
+      <mat-card-content>
+        <p>
+          <mat-form-field appearance="fill">
+            <mat-label>Title</mat-label>
+            <input matInput placeholder="Enter book title" formControlName="title">
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill">
+            <mat-label>Author</mat-label>
+            <input matInput placeholder="Enter Author Name" formControlName="author">
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill" >
+            <mat-label>Category</mat-label>
+            <input matInput placeholder="Category" formControlName="category">
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill">
+            <mat-label>Quantity</mat-label>
+            <input type="number" matInput placeholder="Enter Quantity" formControlName="quantity">
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill">
+            <mat-label>Book Image Url</mat-label>
+            <input  type="text" matInput placeholder="Image Url" formControlName="imageUrl">
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit">Add</button>
+        <a routerLink="/books">View List</a>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>
+  <router-outlet></router-outlet>
+  
+  

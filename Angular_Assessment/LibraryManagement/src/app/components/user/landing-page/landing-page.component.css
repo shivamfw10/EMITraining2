@@ -1,0 +1,18 @@
+
+  .containerbox{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: -9999;
+  }
+
+  .containerbox>.example-card{
+    flex-basis: 10%;
+    margin-top: 5%;
+  }
+  .mat-card-actions{
+    display: flex;
+    justify-content: space-between;
+}

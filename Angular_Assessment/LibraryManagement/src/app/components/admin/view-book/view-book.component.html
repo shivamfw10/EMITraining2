@@ -1,0 +1,24 @@
+<app-menu></app-menu>
+<div class="container">
+    <mat-toolbar>
+        Book Detail
+    </mat-toolbar>
+    <mat-card>
+        <mat-card-content>
+            <div class="left">
+                <p><span class="span_text">Book Id </span>: {{book.id}}</p>
+                <p><span class="span_text">Title</span> : {{book.title}}</p>
+                <p><span class="span_text">Author </span>: {{book.author}}</p>
+                <p><span class="span_text">Category</span> : {{book.category}}</p>
+                <p><span class="span_text">Quantity</span> : {{book.quantity}}</p>
+            </div>
+            <div class="right">
+                <img src="{{book.imageUrl}}" style="width:200px; height: 200px;">
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button routerLink="/books">Back</button>
+            <button mat-raised-button [routerLink]="['edit',(book.id)]" color="warn"> Update</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,24 @@
+<mat-toolbar color="primary"  *ngIf="authService.isAuthenticated">
+  <span >
+    <button mat-button routerLink="landingpage">EMI Library</button>
+  </span>
+  <span class="spacer"></span>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+    <button mat-button>Hi! {{userName}}</button>
+    <button mat-button routerLink="/landingpage"><mat-icon>home</mat-icon>Home</button>
+    <button mat-button routerLink="/viewcart">
+      <mat-icon>shopping_cart</mat-icon>
+       Requested Book
+    </button>
+  </div>
+  <!-- <mat-icon matBadge="15" matBadgeColor="warn">shopping_cart</mat-icon> -->
+   <!-- <button mat-button routerLink="/login">
+      <mat-icon>power_settings_new</mat-icon>
+      Login
+    </button> -->
+    <button mat-button (click)="LogOut()">
+      <mat-icon>exit_to_app</mat-icon>
+      Logout
+    </button>
+</mat-toolbar>
+<router-outlet></router-outlet>

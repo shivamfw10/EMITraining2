@@ -1,0 +1,57 @@
+<app-menu></app-menu>
+<div class="container">
+  <mat-card class="outer-box">
+    <mat-card-header>
+      <mat-card-title>
+        <mat-icon>account_circle</mat-icon>
+        Update Book
+      </mat-card-title>
+    </mat-card-header>
+   <form [formGroup]="editBook" (ngSubmit)="updateBook(editBook.value)">
+    <mat-card-content>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Title</mat-label>
+          <input matInput placeholder="title" value="{{book.title}}">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Author</mat-label>
+          <input matInput placeholder="author" value="{{book.author}}">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Category</mat-label>
+          <input matInput placeholder="" value="{{book.category}}">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Quantity</mat-label>
+          <input type='number' matInput placeholder="" formControlName="quantity" value="{{book.quantity}}">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Book Image Url</mat-label>
+          <input type="text" matInput placeholder="url" formControlName="imageUrl" value="{{book.imageUrl}}">
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit">Update</button>
+      <a routerLink="/books">View List</a>
+    </mat-card-actions>
+   </form>
+</mat-card>
+</div>
+  
+  
+

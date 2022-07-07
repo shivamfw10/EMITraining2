@@ -1,0 +1,24 @@
+<p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>dashboard</mat-icon>
+      </button>
+      <span>EMI Library</span>
+      <span class="example-spacer"></span>
+      <div>
+        <button mat-button>Hi! {{userName}}</button>
+        <button mat-button routerLink="/dashboard">
+            <mat-icon>home</mat-icon>Home
+          </button>
+          <button mat-button routerLink="/books">
+            <mat-icon>book</mat-icon>Books
+          </button>
+          <button mat-button routerLink="/users">
+            <mat-icon>people</mat-icon>Users
+          </button>
+          <button mat-button (click)="LogOut()">
+            <mat-icon>logout</mat-icon>Logout
+          </button>
+      </div>
+    </mat-toolbar>
+  </p>

@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/*seach box */
+.search-hero {
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .form-control {
+    width: 70%;
+    height: 2rem;
+    outline-offset: 0.5px;
+    border-radius: 20px;
+    padding-left: 20px;
+  }
+  .form-control::placeholder  {
+    font-family: FontAwesome;
+  }
+  .container{
+    padding-top: 50px;
+  }

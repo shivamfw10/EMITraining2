@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+  }
+  h2{
+    text-align: center;
+    padding-top:50px;
+  }
+  .mat-elevation-z8{
+    width: 90%;
+    margin: 0px auto 0px auto;
+  }
+  .mat-header-cell{
+    background-color: wheat;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+  }
