@@ -91,28 +91,40 @@
   ],
   "requestedBook": [
     {
-      "title": "Forge Your Future",
-      "author": "APJ Abdul Kalam",
-      "category": "Novel",
-      "quantity": 22,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41v8uTm5GSL._SX322_BO1,204,203,200_.jpg",
+      "title": "Rich DAD Poor DAD",
+      "author": "Robert T.",
+      "category": "Life Story",
+      "quantity": 15,
+      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
+      "email": "s@gmail.com",
       "id": 1
     },
     {
-      "title": "I CAN I WILL",
-      "author": "Antonio Robins",
-      "category": "Novel",
-      "quantity": 25,
-      "imageUrl": "https://m.media-amazon.com/images/I/41gsx2ICCML.jpg",
-      "id": 2
+      "title": "Rich DAD Poor DAD",
+      "author": "Robert T.",
+      "category": "Life Story",
+      "quantity": 15,
+      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
+      "email": "s@gmail.com",
+      "id": 6
     },
     {
-      "title": "You Can Win",
-      "author": "Shiv Kher",
-      "category": "Novel",
-      "quantity": 22,
-      "imageUrl": "https://m.media-amazon.com/images/I/51DetgCVVYL.jpg",
-      "id": 3
+      "title": "Rich DAD Poor DAD",
+      "author": "Robert T.",
+      "category": "Life Story",
+      "quantity": 15,
+      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
+      "email": "rushi@gmail.com",
+      "id": 7
+    },
+    {
+      "title": "Rich DAD Poor DAD",
+      "author": "Robert T.",
+      "category": "Life Story",
+      "quantity": 15,
+      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
+      "email": "rushi@gmail.com",
+      "id": 8
     }
   ]
 }

@@ -25,7 +25,7 @@ const routes: Routes = [
  {path:'viewbook/:id',component:ViewBookComponent},
  {path:'viewbook/:id/edit/:id',component:EditBookComponent},
  {path:'users',component:UserListComponent},
- {path:'viewcart',component:ViewCartComponent},
+ {path:'viewcart',component:ViewCartComponent,canActivate:[AuthguardGuard]},
  {path:'**',component:PageNotFoundComponent}
 ];
 

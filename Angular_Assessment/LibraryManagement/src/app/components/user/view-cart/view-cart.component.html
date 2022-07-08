@@ -1,7 +1,8 @@
 <app-navbar></app-navbar>
 <div class="container">
 <div class="containerbox">
-  <mat-card class="example-card mat-elevation-z10" *ngFor="let item of reqBookData">
+  <mat-card class="example-card mat-elevation-z10" *ngFor="let item of reqBookData | filter:useremail">
+     <!-- <div *ngIf="(item.email == useremail)"> -->
       <mat-card-header>
         <mat-card-title>{{item.title}}</mat-card-title>
         <mat-card-subtitle>{{item.author}}</mat-card-subtitle>
@@ -10,6 +11,7 @@
       <mat-card-actions>
         <button mat-button routerLink="">Details</button>
       </mat-card-actions>
+     <!-- </div> -->
   </mat-card>
   <router-outlet></router-outlet>
 </div>

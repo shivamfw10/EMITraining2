@@ -16,8 +16,6 @@ export class LandingPageComponent implements OnInit {
   cartdata:any;
   data:any;
   searchText:any;
-  userId:any;
-  username:any;
   bookQty:any;
   counter=0;
   
@@ -27,6 +25,8 @@ export class LandingPageComponent implements OnInit {
   year = this.currentDate.getFullYear();
   returnDate = (this.day + 3 + '/' + this.month + '/' + this.year);
   
+  userId = localStorage.getItem('userid');
+  username = localStorage.getItem('email');
   constructor(
     private bookService:BookService,
     private requestBook:ReqbookService, 
@@ -38,14 +38,14 @@ export class LandingPageComponent implements OnInit {
     },error=>{
       console.log(error)
     })
-    this.userId = localStorage.getItem('userid');
-    this.username = localStorage.getItem('email');
+    
   
   }
-  
+  // shivam:{}={title: 'Rich DAD Poor DAD', author: 'Robert T.', category: 'Life Story', quantity: 15, imageUrl: 'https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg',email:`${this.username}`};
   addDataCart(id:any){
     if(this.counter<3){
       this.bookService.getBookById(id).subscribe(response=>{
+        console.log(response);
         this.requestBook.addRequestedBook(response).subscribe(res=>{
           this.toastrService.showSuccess('Book request added successfully', `${"Return Date is "+this.returnDate}`);
           this.counter++
@@ -56,4 +56,14 @@ export class LandingPageComponent implements OnInit {
       this.toastrService.showWarning("You exceed the limit of book request","falied")
     }
   } 
+  requestCount(email:any,data:any){
+    let count=0;
+    for(let i=0;i<data.length;i++){
+      if(data[i].email==email){
+        count++;
+      }
+     
+    }
+    return count;
+  }
 }

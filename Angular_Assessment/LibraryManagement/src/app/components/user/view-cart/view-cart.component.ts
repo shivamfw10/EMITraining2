@@ -10,6 +10,7 @@ import { Requestedbook } from 'src/app/module/requestedbook.model';
 })
 export class ViewCartComponent implements OnInit {
   reqBookData:any;
+  useremail = localStorage.getItem('email');
   constructor(private reqBookService:ReqbookService) { }
 
   ngOnInit(): void {
