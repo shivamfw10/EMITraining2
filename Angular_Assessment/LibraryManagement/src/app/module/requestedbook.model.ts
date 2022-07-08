@@ -6,6 +6,7 @@ export class Requestedbook {
     quantity:number;
     imageUrl:string;
     userEmail:string;
-    pickedupDate:Date;
-    returnDate:Date;
+    username:string;
+    pickedupDate:string;
+    returnDate:string;
 }

@@ -59,8 +59,9 @@ checkRole()
     this.isAuthenticated=true;
     this.router.navigate(['landingpage']);
     localStorage.setItem('userid',this.response.id);
-      localStorage.setItem('userName',this.response.firstName);
-      localStorage.setItem('email',this.response.email);
+    localStorage.setItem('firstName',this.response.firstName);
+    localStorage.setItem('lastName',this.response.lastName);
+    localStorage.setItem('email',this.response.email);
   }
   
 

@@ -18,15 +18,17 @@ export class LandingPageComponent implements OnInit {
   searchText:any;
   bookQty:any;
   counter=0;
+  count:any;
   
   currentDate = new Date();
   day = this.currentDate.getDate();
   month = this.currentDate.getMonth()+1;
   year = this.currentDate.getFullYear();
   returnDate = (this.day + 3 + '/' + this.month + '/' + this.year);
-  
+  pickedupdate = (this.day + '/' + this.month + '/' + this.year);
   userId = localStorage.getItem('userid');
-  username = localStorage.getItem('email');
+  useremail = localStorage.getItem('email');
+  username = localStorage.getItem('firstName')+' '+localStorage.getItem('lastName');
   constructor(
     private bookService:BookService,
     private requestBook:ReqbookService, 
@@ -41,29 +43,37 @@ export class LandingPageComponent implements OnInit {
     
   
   }
-  // shivam:{}={title: 'Rich DAD Poor DAD', author: 'Robert T.', category: 'Life Story', quantity: 15, imageUrl: 'https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg',email:`${this.username}`};
   addDataCart(id:any){
-    if(this.counter<3){
-      this.bookService.getBookById(id).subscribe(response=>{
-        console.log(response);
-        this.requestBook.addRequestedBook(response).subscribe(res=>{
-          this.toastrService.showSuccess('Book request added successfully', `${"Return Date is "+this.returnDate}`);
-          this.counter++
+  this.requestBook.getBooks().subscribe(res=>{
+      if(this.requestCount(this.useremail,res)<3){
+        this.bookService.getBookById(id).subscribe(resp=>{
+          console.log(resp.id,'Hii');
+          this.requestBook.addRequestedBook(this.requestedBookPost(resp.id,resp.title,resp.author,resp.category,resp.imageUrl,this.useremail,this.username,this.pickedupdate,this.returnDate)).subscribe(res=>{
+            this.toastrService.showSuccess('Book request added successfully', `${"Return Date is "+this.returnDate}`);
+            this.count++
+          });
         });
-      });
-    }
-    else{
-      this.toastrService.showWarning("You exceed the limit of book request","falied")
-    }
+      }
+      else{
+        this.toastrService.showWarning("You exceed the limit of book request","falied")
+      }
+    })
   } 
   requestCount(email:any,data:any){
     let count=0;
     for(let i=0;i<data.length;i++){
-      if(data[i].email==email){
+      if(data[i].userEmail==email){
         count++;
       }
-     
     }
     return count;
+  }
+
+  requestedBookPost(id:number,title:string,author:string,
+    category:string,imageUrl:string,
+    userEmail:string,username:string,pickedupDate:string,returnDate:string){
+    return {id:id,title:title,author:author,category:category,
+            quantity:1,imageUrl:imageUrl,userEmail:userEmail,
+          username:username,pickupDate:pickedupDate,returnDate:returnDate}
   }
 }

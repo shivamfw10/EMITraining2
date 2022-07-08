@@ -34,8 +34,10 @@
                     Assigned Books
                 </mat-card-title>
                 <mat-card-content>
-                    <span class="card_num">20</span>
+                    <div class="card_container">
+                    <span class="card_num">{{requestedBook.length}}</span>
                     <mat-icon style="font-size:80px;">library_books</mat-icon>
+                </div>
                 </mat-card-content>
             </mat-card>
         </mat-grid-tile>
@@ -45,7 +47,7 @@
                     Overdue Books
                 </mat-card-title>
                 <mat-card-content>
-                    <span class="card_num">20</span>
+                    <span class="card_num">0</span>
                     <mat-icon style="font-size:80px;">timer_off</mat-icon>
                 </mat-card-content>
             </mat-card>

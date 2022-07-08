@@ -22,6 +22,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { UserListComponent } from './components/admin/user-list/user-list.component';
 import { ViewBookComponent } from './components/admin/view-book/view-book.component';
 import { ViewCartComponent } from './components/user/view-cart/view-cart.component';
+import { RequestedbookComponent } from './components/admin/requestedbook/requestedbook.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ViewCartComponent } from './components/user/view-cart/view-cart.compone
     PageNotFoundComponent,
     DashboardComponent,
     MenuComponent,
+    RequestedbookComponent,
   ],
   imports: [
     BrowserModule,

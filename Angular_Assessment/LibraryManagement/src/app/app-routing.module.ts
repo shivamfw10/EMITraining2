@@ -10,6 +10,7 @@ import { LoginComponent } from './components/shared/login/login.component';
 import { NgModule } from '@angular/core';
 import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
 import { RegistrationComponent } from './components/shared/registration/registration.component';
+import { RequestedbookComponent } from './components/admin/requestedbook/requestedbook.component';
 import { UserListComponent } from './components/admin/user-list/user-list.component';
 import { ViewBookComponent } from './components/admin/view-book/view-book.component';
 import { ViewCartComponent } from './components/user/view-cart/view-cart.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'',component:LoginComponent},
   {path:'signup',component:RegistrationComponent},
  {path:'dashboard',component:DashboardComponent},
+ {path:'reqbook',component:RequestedbookComponent},
  {path:'landingpage',component:LandingPageComponent,canActivate:[AuthguardGuard]},
 
  {path:'books',component:BookListComponent},

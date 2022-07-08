@@ -91,40 +91,16 @@
   ],
   "requestedBook": [
     {
-      "title": "Rich DAD Poor DAD",
-      "author": "Robert T.",
-      "category": "Life Story",
-      "quantity": 15,
-      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
-      "email": "s@gmail.com",
-      "id": 1
-    },
-    {
-      "title": "Rich DAD Poor DAD",
-      "author": "Robert T.",
-      "category": "Life Story",
-      "quantity": 15,
-      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
-      "email": "s@gmail.com",
-      "id": 6
-    },
-    {
-      "title": "Rich DAD Poor DAD",
-      "author": "Robert T.",
-      "category": "Life Story",
-      "quantity": 15,
-      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
-      "email": "rushi@gmail.com",
-      "id": 7
-    },
-    {
-      "title": "Rich DAD Poor DAD",
-      "author": "Robert T.",
-      "category": "Life Story",
-      "quantity": 15,
-      "imageUrl": "https://cdn.lifehack.org/wp-content/uploads/2015/07/Rich-Dad-Poor-Dad.jpg",
-      "email": "rushi@gmail.com",
-      "id": 8
+      "id": 1,
+      "title": "Forge Your Future",
+      "author": "APJ Abdul Kalam",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41v8uTm5GSL._SX322_BO1,204,203,200_.jpg",
+      "userEmail": "s@gmail.com",
+      "username": "Satya Das",
+      "pickupDate": "8/7/2022",
+      "returnDate": "11/7/2022"
     }
   ]
 }
