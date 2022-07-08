@@ -1,0 +1,12 @@
+a. Select * From EMPLOYEE Where FirstName like '[^a-p]%';    
+b. Select * From Employee Where Gender like '__le'; 
+c. Select * From Employee Where FirstName like 'A____'; 
+d. Select Distinct  Department From Employee;
+e. Select MAX(Salary) From EMPLOYEE; Select MIN(Salary) From EMPLOYEE; 
+f. Select CONVERT(VARCHAR(20),JoiningDate,100) from EMPLOYEE; 
+h. Select Top 1 From EMPLOYEE Order By Id;
+i. Select * From EMPLOYEE Where FirstName='Akash' OR FirstName='Nikhil' OR FirstName='Vikas'
+j. Select * From EMPLOYEE Where NOT FirstName='Akash' OR NOT FirstName='Nikhil' OR NOT FirstName='Vikas'
+k. Select TRIM(FirstName) From EMPLOYEE;
+l. Select FirstName, Case when Gender = 'Male' then 'M' when Gender = 'Female' then 'F' end From EMPLOYEE;
+n. Select MAX(Salary) FROM EMPLOYEE WHERE Salary < (Select MAX(Salary) FROM EMPLOYEE);
