@@ -1,1 +1,26 @@
-<p>view-ticket works!</p>
+<app-header></app-header>
+<div class="container">
+    <mat-toolbar>
+        View Ticket
+    </mat-toolbar>
+    <mat-card>
+        <mat-card-content>
+            <p>Ticket Id : {{ticket.id}} </p>
+            <p>Department : {{ticket.department}}</p>
+            <p>Category : {{ticket.category}}</p>
+            <p>Sub-Category : {{ticket.subCategory}}</p>
+            <p>Lis Customer : {{ticket.customer}}</p>
+            <p>Reporting Time : {{ticket.issueTime}}</p>
+            <p>Subject/Issue : {{ticket.subject}}</p>
+            <p>Issue Description : {{ticket.issueDescription}}</p>
+            <p>Email Id : {{ticket.emailId}}</p>
+            <p>Esc Email Id :{{ticket.escEmail}}</p>
+            <p>Status : {{ticket.status}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button routerLink="/landingpage">Back</button>
+            <button mat-raised-button [routerLink]="['edit',(ticket.id)]">EDIT</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+<router-outlet></router-outlet>

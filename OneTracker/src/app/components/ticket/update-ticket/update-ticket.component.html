@@ -1,1 +1,107 @@
-<p>update-ticket works!</p>
+<app-header></app-header>
+<div class="container">
+    <mat-card>
+      <mat-card-title>Edit Ticket</mat-card-title>
+      <form [formGroup]="ticketForm" (ngSubmit)="OnFormSubmit(ticketForm.value)">
+         <p>
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>Id</mat-label>
+                 <input matInput placeholder="Ticket ID" value="{{ticket.ticketid}}" readonly>
+              </mat-form-field>
+        
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>Department</mat-label>
+                 <input matInput placeholder="Department" formControlName="department" value="{{ticket.department}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+         </p>
+          <p>
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>Category</mat-label>
+                 <input matInput placeholder="Category" formControlName="category" value="{{ticket.category}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>subCategory</mat-label>
+                 <input matInput placeholder="Sub Category" formControlName="subCategory" value="{{ticket.subCategory}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+          </p>
+         <p>
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>LIS Customer</mat-label>
+                 <input matInput placeholder="LIS Customer" formControlName="customer" value="{{ticket.customer}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+        
+             <mat-form-field class="example-full-width-2" appearance="fill">
+                 <mat-label>Reporting Time</mat-label>
+                 <input matInput placeholder="Reporting time" formControlName="issueTime" value="{{ticket.issueTime}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field class="example-full-width-1" appearance="fill">
+                <mat-label>Issue/Subject</mat-label>
+                <input matInput placeholder="issue/Subject" formControlName="subject" value="{{ticket.subject}}">
+                <mat-error>
+                   <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                </mat-error>
+             </mat-form-field>
+         </p>
+          <p>
+            <mat-form-field class="example-full-width-1" appearance="fill">
+                <mat-label>Issue Description</mat-label>
+                <input matInput placeholder="issue Description" formControlName="issueDescription" value="{{ticket.issueDescription}}">
+                <mat-error>
+                   <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                </mat-error>
+             </mat-form-field>
+         </p>
+          
+          <p>
+             <mat-form-field class="example-full-width-1" appearance="fill">
+                 <mat-label>Email ID</mat-label>
+                 <input matInput placeholder="Email Id" formControlName="emailId" value="{{ticket.emailId}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+          </p>
+          <p>
+             <mat-form-field class="example-full-width-1" appearance="fill">
+                 <mat-label>Escallation Email</mat-label>
+                 <input matInput placeholder="Escallation Email" formControlName="escEmail" value="{{ticket.escEmail}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+          </p>
+          <p>
+             <mat-form-field class="example-full-width-1" appearance="fill">
+                 <mat-label>Team Link</mat-label>
+                 <input matInput placeholder="Team Link" formControlName="teamLink" value="{{ticket.teamLink}}">
+                 <mat-error>
+                    <!-- <span *ngIf="!empForm.get('name').valid && empForm.get('name').touched">Please Enter Name</span> -->
+                 </mat-error>
+              </mat-form-field>
+          </p>
+          <button mat-button routerLink="/viewticket/{{ticket.id}}">Back</button>
+          <button mat-flat-button color="primary" type="submit"><mat-icon>save</mat-icon></button>
+          <button mat-flat-button color="primary" type="submit" routerLink="/landingpage"><mat-icon>close</mat-icon></button>
+     </form>
+    </mat-card>
+</div>
+<router-outlet></router-outlet>
+

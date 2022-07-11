@@ -1,0 +1,25 @@
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+mat-card-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+mat-card{
+    margin-top: 30px;
+}
+.example-full-width-1{
+    width: 100%;
+
+}
+.example-full-width-2{
+    width: 45%;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
