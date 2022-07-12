@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { AuthenticateService } from 'src/app/shared/service/authenticate.service';
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   searchText:any;
-  constructor() { }
+  constructor(public authService:AuthenticateService) { }
 
   ngOnInit(): void {
   }

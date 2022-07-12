@@ -1,7 +1,7 @@
     <app-header></app-header>
-    <mat-toolbar>
+    <mat-toolbar *ngIf="authService.isAuthenticated">
         <a mat-stroked-button routerLink="/add"><mat-icon>add</mat-icon> Ticket</a>
-        <a mat-stroked-button routerLink="/dashboard">Dashboard</a>
+        <a mat-stroked-button routerLink="/userdashboard">Dashboard</a>
         <a mat-stroked-button routerLink="/report">Report</a>
         <a mat-stroked-button routerLink="/rca">Root Cause Analysis</a>
         <div class="spacer"></div>

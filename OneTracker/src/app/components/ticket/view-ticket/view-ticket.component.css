@@ -2,6 +2,9 @@
 .container{
     max-width: 100%;
 }
+.mat-card{
+    box-shadow: none;
+}
 .mat-toolbar{
     /* max-width: 100%; */
     display: flex;
@@ -13,4 +16,27 @@
 .mat-card-content{
     width: 90%;
     margin: auto;
+}
+.mat-card-content>div{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width: 60%;
+    float: left;
+}
+.right{
+    width: 40%;
+    float: left;
+}
+.bottom{
+    clear: both;
+}
+p{
+    line-height: 50px;
+    font-size: medium;
+}
+p>span{
+    font-weight: 500;
+    font-size: 1.1rem;
 }

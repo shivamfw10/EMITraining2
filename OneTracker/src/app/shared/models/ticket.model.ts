@@ -4,14 +4,14 @@ export class Ticket {
     category: string;
     subCategory: string;
     customer:string;
-    issueTime:string;
+    issueTime:Date;
     subject:string;
     issueDescription:string;
     emailId:string;
     escEmail:string; 
     teamLink:string;
     status:string;
-    lastModifiedDate:string;
+    lastModifiedDate:Date;
     ticketage:string;
     user:any[]
 }
