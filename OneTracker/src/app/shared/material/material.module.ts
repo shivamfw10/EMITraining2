@@ -8,10 +8,11 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSelectModule} from '@angular/material/select';
+import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatTableModule} from '@angular/material/table';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
-const material = [MatToolbarModule,
+const ux_module = [MatToolbarModule,
                   MatButtonModule,
                   MatCardModule,
                   MatDatepickerModule,
@@ -21,16 +22,17 @@ const material = [MatToolbarModule,
                   MatPaginatorModule,
                   MatSelectModule,
                   MatTableModule,
-                  MatBadgeModule
+                  MatBadgeModule,
+                  MatSidenavModule
                 ]
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    material
+    ux_module
   ],
   exports:[
-    material
+    ux_module
   ]
 })
 export class MaterialModule { }

@@ -1,5 +1,5 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Observable, catchError, throwError } from 'rxjs';
+import { Observable, Subject, catchError, throwError } from 'rxjs';
 
 import { Injectable } from '@angular/core';
 import { Ticket } from '../models/ticket.model';
@@ -9,7 +9,11 @@ const apiUrl = environment.ticketUrl;
 @Injectable({
   providedIn: 'root'
 })
+
+
 export class TicketService {
+  
+  subject=new Subject();
   private handleError(errorResponse:HttpErrorResponse)
   {
     if(errorResponse.error instanceof ErrorEvent){
@@ -40,5 +44,10 @@ export class TicketService {
   public EditTicket(id:number,emp:any):Observable<Ticket>{
     const url=`${apiUrl}/${id}`;
     return this.http.patch<Ticket>(url,emp).pipe(catchError(this.handleError));
+  }
+
+  public searchdata(data:any){
+    console.log(data,'Hello');
+    return this.subject.next(data);
   }
 }

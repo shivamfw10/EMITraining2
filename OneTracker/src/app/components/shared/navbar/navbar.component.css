@@ -2,7 +2,7 @@
     flex: 1 1 auto;
 }
 
-mat-form-field  {
+/* mat-form-field  {
     margin-top: 10% !important;
     font-size: medium;
 }
@@ -13,4 +13,4 @@ mat-form-field  {
 ::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
     transform: translateY(-1.1em) scale(.75);
     width: 133.33333%;
-}
+} */

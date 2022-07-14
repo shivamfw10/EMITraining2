@@ -4,6 +4,7 @@ import { AddTicketComponent } from './components/ticket/add-ticket/add-ticket.co
 import { AdmindashboardComponent } from './components/admin/admindashboard/admindashboard.component';
 import { AuthGuard } from './shared/service/auth.guard';
 import { DashboardComponent } from './components/user/dashboard/dashboard.component';
+import { HomeComponent } from './components/home/home.component';
 import { LandingPageComponent } from './components/user/landing-page/landing-page.component';
 import { LoginComponent } from './components/shared/login/login.component';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,9 @@ import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
-  {path:'dashboard',component:AdmindashboardComponent},
+  {path:'dashboard',component:AdmindashboardComponent,children:[
+    {path:'home',component:HomeComponent}
+  ]},
   {path:'landingpage',component:LandingPageComponent,canActivate:[AuthGuard]},
   {path:"add",component:AddTicketComponent},
   {path:"userdashboard",component:DashboardComponent},

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { CustomPipe } from './shared/pipes/custom.pipe';
 import { DashboardComponent } from './components/user/dashboard/dashboard.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { HomeComponent } from './components/home/home.component';
@@ -23,7 +24,7 @@ import { UpdateTicketComponent } from './components/ticket/update-ticket/update-
 import { UpdateuserComponent } from './components/admin/users/updateuser/updateuser.component';
 import { UserlistComponent } from './components/admin/users/userlist/userlist.component';
 import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket.component';
-import { CustomPipe } from './shared/pipes/custom.pipe';
+import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { CustomPipe } from './shared/pipes/custom.pipe';
     AdduserComponent,
     UpdateuserComponent,
     HeaderComponent,
-    CustomPipe
+    CustomPipe,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
