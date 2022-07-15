@@ -148,9 +148,9 @@
       "id": 1
     },
     {
-      "firstName": "Satya",
-      "lastName": "Das",
-      "email": "satya@gmail.com",
+      "firstName": "Anurag",
+      "lastName": "Raghuvansi",
+      "email": "anurag@gmail.com",
       "password": "123",
       "role": "user",
       "status": false,
@@ -173,6 +173,60 @@
       "role": "user",
       "status": false,
       "id": 4
+    },
+    {
+      "firstName": "Aditya",
+      "lastName": "Shrikant",
+      "email": "aditya@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 5
+    },
+    {
+      "firstName": "Sachin",
+      "lastName": "Mittalkod",
+      "email": "aditya@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 6
+    },
+    {
+      "firstName": "Abhinav",
+      "lastName": "Joshi",
+      "email": "abhinav@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 7
+    },
+    {
+      "firstName": "Vishnu",
+      "lastName": "Shankar",
+      "email": "vishnu@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 8
+    },
+    {
+      "firstName": "Saurabh",
+      "lastName": "Kumar",
+      "email": "saurabh@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 9
+    },
+    {
+      "firstName": "Rambhu",
+      "lastName": "Mukhiya",
+      "email": "rambhu@gmail.com",
+      "password": "123",
+      "role": "user",
+      "status": false,
+      "id": 10
     }
   ]
 }

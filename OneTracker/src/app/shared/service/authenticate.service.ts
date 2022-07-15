@@ -49,7 +49,7 @@ export class AuthenticateService {
     {
       this.isAdmin=true;
       this.isAuthenticated=true;
-      this.router.navigate(['dashboard']);
+      this.router.navigate(['dashboard/home']);
         localStorage.setItem('adminid',this.response.id);
         localStorage.setItem('adminName',this.response.firstName);
     }

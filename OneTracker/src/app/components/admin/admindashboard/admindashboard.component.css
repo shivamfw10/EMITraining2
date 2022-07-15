@@ -7,17 +7,22 @@ mat-sidenav-content{
     height: 100vh;
 }
 .main{
-    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
 }
 .box{
+    margin-right: 230px;
     margin-top: 15px;
 }
 .box>mat-icon{
     margin-left: 15px;
-    /* color: #608299; */
-    color: #ffffff;
+    color: #ffffff;/* color: #608299; */
 }
 mat-toolbar{
     background: #23507A;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 100%;
+   
 }

@@ -25,6 +25,8 @@ import { UpdateuserComponent } from './components/admin/users/updateuser/updateu
 import { UserlistComponent } from './components/admin/users/userlist/userlist.component';
 import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket.component';
 import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
+import { TicketListComponent } from './components/ticket/ticket-list/ticket-list.component';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
     UpdateuserComponent,
     HeaderComponent,
     CustomPipe,
-    SidebarComponent
+    SidebarComponent,
+    TicketListComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

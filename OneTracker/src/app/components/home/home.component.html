@@ -6,7 +6,7 @@
                 <mat-card-subtitle>Total No. of Ticket</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <span class="ticket-counter">30</span>
+                <span class="ticket-counter">{{this.ticketData.length}}</span>
             </mat-card-content>
         </mat-card>
 
@@ -16,7 +16,7 @@
                 <mat-card-subtitle>Open Tickets</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <span class="ticket-counter">30</span>
+                <span class="ticket-counter">{{this.countOpenTicket(this.ticketData)}}</span>
             </mat-card-content>
         </mat-card>
 
@@ -26,7 +26,7 @@
             <mat-card-subtitle>Tickets closed in 4hrs</mat-card-subtitle>
         </mat-card-title-group>
         <mat-card-content>
-            <span class="ticket-counter">30</span>
+            <span class="ticket-counter">{{this.ticketClose4hour(this.ticketData)}}</span>
         </mat-card-content>
         </mat-card>
 
@@ -36,7 +36,7 @@
                 <mat-card-subtitle>Ticket crossed 4hrs</mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content>
-                <span class="ticket-counter">30</span>
+                <span class="ticket-counter">{{this.ticketCrossed4hour(this.ticketData)}}</span>
             </mat-card-content>
         </mat-card>
     </div>

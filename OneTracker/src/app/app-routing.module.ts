@@ -9,13 +9,17 @@ import { LandingPageComponent } from './components/user/landing-page/landing-pag
 import { LoginComponent } from './components/shared/login/login.component';
 import { NgModule } from '@angular/core';
 import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
+import { TicketListComponent } from './components/ticket/ticket-list/ticket-list.component';
 import { UpdateTicketComponent } from './components/ticket/update-ticket/update-ticket.component';
+import { UserlistComponent } from './components/admin/users/userlist/userlist.component';
 import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket.component';
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
-  {path:'dashboard',component:AdmindashboardComponent,children:[
-    {path:'home',component:HomeComponent}
+  {path:'dashboard',component:AdmindashboardComponent,canActivate:[AuthGuard],children:[
+    {path:'home',component:HomeComponent,canActivate:[AuthGuard]},
+    {path:'ticket',component:TicketListComponent,canActivate:[AuthGuard]},
+    {path:'userlist',component:UserlistComponent,canActivate:[AuthGuard]}
   ]},
   {path:'landingpage',component:LandingPageComponent,canActivate:[AuthGuard]},
   {path:"add",component:AddTicketComponent},
