@@ -19,10 +19,13 @@ mat-sidenav-content{
     color: #ffffff;/* color: #608299; */
 }
 mat-toolbar{
-    background: #23507A;
+    background:navy;
     justify-content: space-between;
     position: fixed;
     top:0;
     width: 100%;
    
+}
+mat-toolbar>mat-icon{
+    color: #ffffff;
 }

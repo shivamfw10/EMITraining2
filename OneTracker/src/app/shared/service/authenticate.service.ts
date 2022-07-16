@@ -38,7 +38,6 @@ export class AuthenticateService {
       this.toastr.showSuccess('Congratulation','Successfull Logged In');
     }
     else{
-      // alert ("Invalid Credential");
       this.toastr.showWarning('Try again', `Invalid Credential`);
     }
   }
@@ -52,6 +51,7 @@ export class AuthenticateService {
       this.router.navigate(['dashboard/home']);
         localStorage.setItem('adminid',this.response.id);
         localStorage.setItem('adminName',this.response.firstName);
+        localStorage.setItem('adminEmail',this.response.email);
     }
     else if(this.response.role==='user'){
       this.isUser=true;
