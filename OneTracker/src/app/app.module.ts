@@ -27,6 +27,8 @@ import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket
 import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
 import { TicketListComponent } from './components/ticket/ticket-list/ticket-list.component';
 import { SelectComponent } from './select/select.component';
+import { ViewuserComponent } from './components/admin/users/viewuser/viewuser.component';
+import { StatusComponent } from './components/shared/status/status.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { SelectComponent } from './select/select.component';
     CustomPipe,
     SidebarComponent,
     TicketListComponent,
-    SelectComponent
+    SelectComponent,
+    ViewuserComponent,
+    StatusComponent
   ],
   imports: [
     BrowserModule,
