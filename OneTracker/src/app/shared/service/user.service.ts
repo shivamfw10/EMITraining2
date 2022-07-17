@@ -37,7 +37,7 @@ export class UserService {
     const url=`${apiUrl}/${id}`;
     return this.http.delete<User>(url).pipe(catchError(this.handleError));
   }
-  public EditUser(id:number,emp:any):Observable<User>{
+  public EditUser(emp:any,id:number):Observable<User>{
     const url=`${apiUrl}/${id}`;
     return this.http.patch<User>(url,emp).pipe(catchError(this.handleError));
   }

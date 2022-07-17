@@ -26,6 +26,20 @@ mat-toolbar{
     width: 100%;
    
 }
-mat-toolbar>mat-icon{
-    color: #ffffff;
+mat-icon{
+    color:#ffffff
 }
+.logo{
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.logotext{
+    margin-left: 5px;
+    font-size: 1.5rem;
+    color: white;
+}
+mat-icon+span{
+    color: white;
+}
+

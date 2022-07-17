@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { AddTicketComponent } from './components/ticket/add-ticket/add-ticket.component';
+import { AdduserComponent } from './components/admin/users/adduser/adduser.component';
 import { AdmindashboardComponent } from './components/admin/admindashboard/admindashboard.component';
 import { AuthGuard } from './shared/service/auth.guard';
 import { DashboardComponent } from './components/user/dashboard/dashboard.component';
@@ -17,9 +18,10 @@ import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket
 const routes: Routes = [
   {path:'',component:LoginComponent},
   {path:'dashboard',component:AdmindashboardComponent,canActivate:[AuthGuard],children:[
-    {path:'home',component:HomeComponent,canActivate:[AuthGuard]},
-    {path:'ticket',component:TicketListComponent,canActivate:[AuthGuard]},
-    {path:'userlist',component:UserlistComponent,canActivate:[AuthGuard]}
+    {path:'home',component:HomeComponent},
+    {path:'ticket',component:TicketListComponent},
+    {path:'userlist',component:UserlistComponent},
+    {path:'adduser',component:AdduserComponent}
   ]},
   {path:'landingpage',component:LandingPageComponent,canActivate:[AuthGuard]},
   {path:"add",component:AddTicketComponent},

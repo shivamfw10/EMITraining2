@@ -28,7 +28,7 @@ export class TicketListComponent implements OnInit {
     'action'
   ]
   constructor(private ticketService:TicketService,private notification:NotificationService) { }
-
+  
   ngOnInit(): void {
     this.ticketService.getTickets().subscribe({
       next: (res) => {
@@ -46,8 +46,20 @@ export class TicketListComponent implements OnInit {
       this.ticketService.deleteTicket(id).subscribe(res=>{
         alert('Are you sure delete this data')
         this.notification.showSuccess("Mesage","Successfully deleted");
-        window.location.reload();
       });
+      this.getAllTickets();
+  }
+  public getAllTickets(){
+    this.ticketService.getTickets().subscribe({
+      next: (res) => {
+        this.dataSource = new MatTableDataSource(res);
+        this.dataSource.paginator = this.paginator;
+      },
+    });
+  }
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
 }

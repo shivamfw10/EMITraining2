@@ -144,7 +144,8 @@
       "email": "admin@gmail.com",
       "password": "admin@123",
       "role": "admin",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 1
     },
     {
@@ -153,7 +154,8 @@
       "email": "anurag@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 2
     },
     {
@@ -162,7 +164,8 @@
       "email": "aniket@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 3
     },
     {
@@ -171,16 +174,18 @@
       "email": "rushi@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 4
     },
     {
       "firstName": "Aditya",
       "lastName": "Shrikant",
       "email": "aditya@gmail.com",
-      "password": "123",
+      "password": "1234",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 5
     },
     {
@@ -189,7 +194,8 @@
       "email": "aditya@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 6
     },
     {
@@ -198,7 +204,8 @@
       "email": "abhinav@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 7
     },
     {
@@ -207,7 +214,8 @@
       "email": "vishnu@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 8
     },
     {
@@ -216,7 +224,8 @@
       "email": "saurabh@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 9
     },
     {
@@ -225,8 +234,29 @@
       "email": "rambhu@gmail.com",
       "password": "123",
       "role": "user",
-      "status": false,
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
       "id": 10
+    },
+    {
+      "firstName": "Mayura",
+      "lastName": "Sonar",
+      "email": "mayura@gmail.com",
+      "role": "user",
+      "password": "",
+      "status": true,
+      "date": "2022-07-17T10:33:58.940Z",
+      "id": 11
+    },
+    {
+      "firstName": "Krishna",
+      "lastName": "Kumar",
+      "email": "kksoni@gmail.com",
+      "role": "user",
+      "password": "",
+      "status": true,
+      "date": "2022-07-17T10:36:19.067Z",
+      "id": 12
     }
   ]
 }

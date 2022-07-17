@@ -1,6 +1,18 @@
 <div class="container">
   <h1>Tickets</h1>
   <div class="content mat-elevation-z8">
+    <div class="header">
+      <div class="btn-container">
+       <button mat-fab color="accent">
+         <mat-icon>add</mat-icon>
+       </button>
+      </div>
+       <mat-form-field appearance="standard">
+        
+         <mat-label>Search Tickets</mat-label>
+         <input matInput (keyup)="applyFilter($event)" placeholder="search" #input>
+       </mat-form-field>
+     </div>
     <table mat-table [dataSource]="dataSource">
   
       <ng-container matColumnDef="no">
@@ -56,17 +68,17 @@
       <ng-container matColumnDef="action">
         <th mat-header-cell *matHeaderCellDef>Action</th>
         <td mat-cell *matCellDef="let element">
-            <mat-icon class="mat-18" (click)="viewTicket(element.id)" color="primary">
+            <mat-icon class="mat-18" (click)="viewTicket(element.id)" color="primary" title="view">
                 <span class="material-icons-outlined">
                   visibility
                   </span>
               </mat-icon>
-              <mat-icon class="mat-18" style="margin-left:15%" color="accent">
+              <mat-icon class="mat-18" style="margin-left:15%" color="accent" title="update">
                 <span class="material-symbols-outlined" matTooltip="dalete">
                     edit
                 </span>
               </mat-icon>
-              <mat-icon class="mat-18" style="margin-left:15%" (click)="deleteTicket(element.id)"  color="accent">
+              <mat-icon class="mat-18" style="margin-left:15%" (click)="deleteTicket(element.id)"  color="accent" title="delete">
                 <span class="material-symbols-outlined" matTooltip="dalete">
                 delete
                 </span>
