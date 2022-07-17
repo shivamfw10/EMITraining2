@@ -1,0 +1,42 @@
+mat-dialog-content{
+    height: auto;
+}
+.close-btn{
+    display: flex;
+   justify-content: flex-end;
+   margin-bottom: -20px;
+}
+.mat-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.mat-box{
+    width: 100%;
+    justify-content: space-between;
+}
+.left-box{
+    float: left;
+    width: 60%;
+}
+.right-box{
+    float: left;
+    width: 40%;
+}
+tr>td:nth-child(1){
+    font-weight: 600;
+    width: 50%;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+tr>td:nth-child(2){
+    font-weight: 500;
+}
+.img-container{
+    text-align: center;
+}
+.img-container>img{
+    width:150px;
+    height: 150px;
+}

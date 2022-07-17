@@ -8,6 +8,7 @@ import { NotificationService } from 'src/app/shared/service/notification.service
 import { Router } from '@angular/router';
 import { UpdateuserComponent } from '../updateuser/updateuser.component';
 import { UserService } from 'src/app/shared/service/user.service';
+import { ViewuserComponent } from './../viewuser/viewuser.component';
 
 @Component({
   selector: 'app-userlist',
@@ -27,7 +28,6 @@ export class UserlistComponent implements OnInit{
   ]
   constructor(private userService:UserService,
     private notification:NotificationService,
-    private router:Router,
     public matDialog:MatDialog,
     private el: ElementRef) { }
 
@@ -45,9 +45,7 @@ export class UserlistComponent implements OnInit{
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
-  public viewUser(id:any){
-    
-  }
+
   public getAllUsers(){
     this.userService.getUsers().subscribe({
       next: (res) => {
@@ -56,6 +54,31 @@ export class UserlistComponent implements OnInit{
       },
     });
   }
+  
+  public addUser(){
+    this.matDialog.open(AdduserComponent,{
+        width: '500px'
+      });
+    }
+    
+  public updateUser(element:any){
+    this.matDialog.open(UpdateuserComponent,{
+      width:'470px',
+      data:element,
+    }).afterClosed().subscribe(val=>{
+      this.getAllUsers();
+    })
+  }
+  
+  public viewUser(element:any){
+    this.matDialog.open(ViewuserComponent,{
+      width:'470px',
+      data:element,
+    }).afterClosed().subscribe(val=>{
+      this.getAllUsers();
+    })
+  }
+  
   public deleteUser(id:any){
     var proceed = confirm("Are you sure delete this data?");
     if(proceed){
@@ -66,18 +89,6 @@ export class UserlistComponent implements OnInit{
     } else {
     }
   }
-  public addUser(){
-    this.matDialog.open(AdduserComponent,{
-        width: '500px'
-      });
-    }
-  public updateUser(element:any){
-    localStorage.setItem('userid',element.id);
-    this.matDialog.open(UpdateuserComponent,{
-      width:'30%',
-      data:element,
-    }).afterClosed().subscribe(val=>{
-      this.getAllUsers();
-    })
-  }
+ 
+  
 }

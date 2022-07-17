@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="close-btn">
+        <button mat-icon-button color="primary" (click)="matClose()"><mat-icon>close</mat-icon></button>
+    </div>
+    <div class="mat-title">
+        <h2 mat-dialog-title><mat-icon>account_circle</mat-icon> Profile</h2>
+    </div>
+    <mat-dialog-content>
+       <div class="mat-box">
+            <div class="left-box">
+                <table>
+                    <tr>
+                        <td>User Id</td>
+                        <td>{{this.userData.id}}</td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td>{{this.userData.firstName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>{{this.userData.lastName}}</td>
+                    </tr>
+                    <tr>
+                        <td>Email Id</td>
+                        <td>{{this.userData.email}}</td>
+                    </tr>
+                    <tr>
+                        <td>Role</td>
+                        <td>{{this.userData.role}}</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>{{this.userData.status}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-box">
+                <div class="img-container">
+                    <img src="https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425__340.png">
+                </div>
+            </div>
+       </div>
+       <div class="bottom-box">
+        <p style="font-style: italic;font-weight: 500;">Joining Date  {{this.userData.date | date}}</p>
+    </div>
+    </mat-dialog-content>
+</div>
