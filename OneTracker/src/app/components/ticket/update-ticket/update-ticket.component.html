@@ -97,6 +97,17 @@
                  </mat-error>
               </mat-form-field>
           </p>
+          <p>
+            <mat-form-field appearance="fill">
+               <mat-label>Status</mat-label>
+               <mat-select [disabled]="disableSelect.value">
+                 <mat-option value="" disabled>Select</mat-option>
+                 <mat-option value="open">Open</mat-option>
+                 <mat-option value="inprogress">In Progress</mat-option>
+                 <mat-option value="close">Close</mat-option>
+               </mat-select>
+             </mat-form-field>
+          </p>
           <button mat-button routerLink="/viewticket/{{ticket.id}}">Back</button>
           <button mat-flat-button color="primary" type="submit"><mat-icon>save</mat-icon></button>
           <button mat-flat-button color="primary" type="submit" routerLink="/landingpage"><mat-icon>close</mat-icon></button>

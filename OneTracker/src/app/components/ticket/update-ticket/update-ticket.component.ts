@@ -1,6 +1,6 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 import { Ticket } from 'src/app/shared/models/ticket.model';
 import { TicketService } from 'src/app/shared/service/ticket.service';
@@ -13,6 +13,7 @@ import { TicketService } from 'src/app/shared/service/ticket.service';
 export class UpdateTicketComponent implements OnInit {
   ticket = new Ticket();
   ticketForm:FormGroup;
+  disableSelect = new FormControl(false);
   constructor(
     private ticketService:TicketService,
      private router:Router,
