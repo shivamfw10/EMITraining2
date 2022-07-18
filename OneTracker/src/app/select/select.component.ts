@@ -24,8 +24,6 @@ export class SelectComponent implements OnInit {
     this.category = this.selectService.getCategory().filter((item) => item.departmentid == departmentid.target.value);
   }
   public onSelectSub(categoryid:any){
-    // const savedFilters = this.selectService.getSubCategory();
-    // const savedFiltersAsArray = savedFilters.filter((item:any) => item.key === 'filter');
-    // this.subcategory = this.selectService.getSubCategory().filter
+    this.subcategory = this.selectService.getSubCategory().filter((item)=>item.categoryid==categoryid.target.value);
   }
 }

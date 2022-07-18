@@ -28,7 +28,9 @@ export class SelectService {
     ];
   }
   getSubCategory(){
-    new Subcategory(1,1,1,'Hardware'),
+    return[
+      new Subcategory(1,1,1,'Hardware'),
     new Subcategory(2,1,1,'Data Extraction')
+    ]
   }
 }
