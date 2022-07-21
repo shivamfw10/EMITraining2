@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "OneTracker": {
+    "MS-PP2-OneTracker-UI": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/one-tracker",
+            "outputPath": "dist/ms-pp2-one-tracker-ui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "OneTracker:build:production"
+              "browserTarget": "MS-PP2-OneTracker-UI:build:production"
             },
             "development": {
-              "browserTarget": "OneTracker:build:development"
+              "browserTarget": "MS-PP2-OneTracker-UI:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "OneTracker:build"
+            "browserTarget": "MS-PP2-OneTracker-UI:build"
           }
         },
         "test": {
@@ -96,11 +96,23 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "1adddf5f-54e1-4466-867b-866bc9738d03"
+    "analytics": "88b4ab31-b74c-4734-8b3d-c47cc71fd87f",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
