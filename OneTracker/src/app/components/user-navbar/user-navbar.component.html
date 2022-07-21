@@ -1,0 +1,34 @@
+
+ <mat-toolbar color="primary" >
+    <button mat-icon-button>
+      <mat-icon class="logo">radar</mat-icon>
+    </button>
+    <span class="logo-text">One Tracker</span>
+    <span class="example-spacer"></span>
+    <span>Hi! {{userName}}</span>
+    <button mat-button [routerLink]="['tickets']">
+        <mat-icon>home</mat-icon>
+        <span> Home</span>
+    </button>
+    <button mat-button [routerLink]="['addticket']">
+        <mat-icon>local_activity</mat-icon>
+        <span> Add Ticket</span>
+    </button>
+    <button mat-button [routerLink]="['userdashboard']">
+        <mat-icon>dashboard</mat-icon>
+        <span> Dashboard</span>
+    </button>
+    <button mat-button >
+        <mat-icon>receipt_long</mat-icon>
+        <span> Report</span>
+    </button>
+    <button mat-button>
+        <mat-icon>analytics</mat-icon>
+        <span> RCA</span>
+    </button>
+    <button mat-button (click)="Logout()">
+        <mat-icon>logout</mat-icon>
+        <span> Logout</span>
+    </button>
+  </mat-toolbar>
+  

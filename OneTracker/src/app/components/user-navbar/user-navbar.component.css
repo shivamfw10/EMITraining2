@@ -1,0 +1,16 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar{
+    width: 100%;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .logo{
+    background-color: red;
+    border-radius: 50%;
+}
+.logotext{
+    font-size: 1.5rem;
+}

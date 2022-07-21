@@ -1,0 +1,35 @@
+
+<div class="container">
+    <mat-toolbar>
+        View Ticket
+    </mat-toolbar>
+    <mat-card>
+        <mat-card-content>
+            <div >
+                <div class="left">
+                    <p><span>Ticket Id </span>: {{ticket.id}} </p>
+                    <p><span>Category </span>: {{ticket.category}}</p>
+                    <p><span>Lis Customer </span>: {{ticket.customer}}</p>
+                </div>
+                <div class="right">
+                    <p><span>Department</span> : {{ticket.department}}</p>
+                    <p><span>Sub-Category</span> : {{ticket.subCategory}}</p>
+                    <p><span>Reporting Time</span> : {{ticket.issueTime}}</p>
+                </div>
+            </div>
+            
+           
+            <div class="bottom">
+                <p><span>Subject/Issue</span> : {{ticket.subject}}</p>
+                <p><span>Issue Description</span> : {{ticket.issueDescription}}</p>
+                <p><span>Email Id</span> : {{ticket.emailId}}</p>
+                <p><span>Esc Email Id </span>{{ticket.escEmail}}</p>
+                <p><span>Status</span> : {{ticket.status}}</p>
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button routerLink="/landingpage">Back</button>
+            <button mat-raised-button [routerLink]="['edit',(ticket.id)]">EDIT</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
