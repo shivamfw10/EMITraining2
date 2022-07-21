@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'OneTracker';
+  title = 'MS-PP2-OneTracker-UI';
 }

@@ -1,69 +1,64 @@
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { AddTicketComponent } from './components/ticket/add-ticket/add-ticket.component';
-import { AdduserComponent } from './components/admin/users/adduser/adduser.component';
-import { AdmindashboardComponent } from './components/admin/admindashboard/admindashboard.component';
+import { AddTicketComponent } from './components/ticket-list/add-ticket/add-ticket.component';
+import { AdduserComponent } from './components/user-list/adduser/adduser.component';
+import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { AdminHomeComponent } from './components/admin-home/admin-home.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { CustomPipe } from './shared/pipes/custom.pipe';
-import { DashboardComponent } from './components/user/dashboard/dashboard.component';
-import { HeaderComponent } from './components/shared/header/header.component';
-import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LandingPageComponent } from './components/user/landing-page/landing-page.component';
-import { LoginComponent } from './components/shared/login/login.component';
-import { MaterialModule } from './shared/material/material.module';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { LoginComponent } from './components/login/login.component';
+import { MatMaduleModule } from './core/mat-madule/mat-madule.module';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NgModule } from '@angular/core';
-import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TicketListComponent } from './components/ticket-list/ticket-list.component';
+import { TicketsComponent } from './components/tickets/tickets.component';
 import { ToastrModule } from 'ngx-toastr';
-import { UpdateTicketComponent } from './components/ticket/update-ticket/update-ticket.component';
-import { UpdateuserComponent } from './components/admin/users/updateuser/updateuser.component';
-import { UserlistComponent } from './components/admin/users/userlist/userlist.component';
-import { ViewTicketComponent } from './components/ticket/view-ticket/view-ticket.component';
-import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
-import { TicketListComponent } from './components/ticket/ticket-list/ticket-list.component';
-import { SelectComponent } from './select/select.component';
-import { ViewuserComponent } from './components/admin/users/viewuser/viewuser.component';
-import { StatusComponent } from './components/shared/status/status.component';
+import { UpdateTicketComponent } from './components/ticket-list/update-ticket/update-ticket.component';
+import { UpdateuserComponent } from './components/user-list/updateuser/updateuser.component';
+import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
+import { UserHomeComponent } from './components/user-home/user-home.component';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { UserNavbarComponent } from './components/user-navbar/user-navbar.component';
+import { ViewTicketComponent } from './components/ticket-list/view-ticket/view-ticket.component';
+import { ViewuserComponent } from './components/user-list/viewuser/viewuser.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    LoginComponent,
-    AdmindashboardComponent,
-    PageNotFoundComponent,
-    AddTicketComponent,
-    ViewTicketComponent,
-    UpdateTicketComponent,
-    NavbarComponent,
-    LandingPageComponent,
-    DashboardComponent,
-    UserlistComponent,
+    AdminDashboardComponent,
+    UserHomeComponent,
+    SidebarComponent,
+    UserListComponent,
     AdduserComponent,
     UpdateuserComponent,
-    HeaderComponent,
-    CustomPipe,
-    SidebarComponent,
-    TicketListComponent,
-    SelectComponent,
     ViewuserComponent,
-    StatusComponent
+    PageNotFoundComponent,
+    UserNavbarComponent,
+    TicketListComponent,
+    AddTicketComponent,
+    UpdateTicketComponent,
+    ViewTicketComponent,
+    LoginComponent,
+    AdminHomeComponent,
+    UserDashboardComponent,
+    TicketsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
+    MatMaduleModule,
     Ng2SearchPipeModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
