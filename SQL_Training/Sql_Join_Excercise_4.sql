@@ -1,61 +1,68 @@
-SELECT * FROM company;
-SELECT * FROM customer;
-SELECT * FROM emp_department;
-SELECT * FROM emp_details;
-SELECT * FROM item_mast;
-SELECT * FROM orders;
-SELECT * FROM salesman;
+use Employee
 
---1. Write a SQL statement to make a list with order no, purchase amount, 
---customer name and their cities for those orders which order amount between 500 and 2000.
-select o.ord_no as 'Order_No', o.purch_amt as 'Purchase_Amount',c.cust_name as 'Customer_Name',
-c.city as 'City' from orders o, customer c WHERE o.customer_id=c.customer_id
-AND o.purch_amt BETWEEN 500 AND 2000;
+SELECT * FROM countries;
+SELECT * FROM departments;
+SELECT * FROM dependents;
+SELECT * FROM employees;
+SELECT * FROM jobs;
+SELECT * FROM locations;
+select * FROM jobs;
+SELECT * FROM regions
 
---2.Write a SQL statement to know which salesman are working for which customer.
-select c.cust_name as 'Customer_Name', c.city as 'City',
-s.name as 'Salesman', s.commission as 'Commission' from customer c
-JOIN salesman s ON c.salesman_id = s.salesman_id
+--1. Display the maximum, minimum and average salary and commmision earned.
+--Max Salary
+Select Max(Salary) as MaxSalary from Employees
+--Min Salary
+Select Min(Salary) as MinSalary from Employees
+--Average Salary
+Select AVG(Salary) as AverageSalary from Employees
 
---3.Write a SQL statement to find the list of customers who appointed a salesman
---for their jobs who gets a commission from the company is more than 12%.
-select c.cust_name as 'Customer_Name', c.city as 'City',
-s.name as 'Salesman', s.commission as 'Commission' from customer c
-join salesman s on c.salesman_id=s.salesman_id 
-WHERE s.commission>.12
+--2. Display the department number, total salary payout and total commision payout for each department
+--Display No Of Department
+Select department_id, SUM(Salary) as TotalPayout from Employees group by department_id
 
---4. Write a SQL statement to find the list of customers who appointed a salesman for their jobs who does not live in
---the same city where their customer lives, and gets a commission is above 12%.
-select c.cust_name as 'Customer_Name', c.city as 'City',
-s.name as 'Salesman', s.commission as 'Commission' from customer c
-join salesman s on c.salesman_id=s.salesman_id 
-WHERE s.commission>.12 AND c.city!=s.city
+--Total Salary Payout
+Select SUM(Salary) as TotalPayout from Employees
 
---5.Write a SQL statement to find the details of an order i.e. order number, order date, amount of order, which customer gives 
---the order and which salesman works for that customer and how much commission he gets for an order. 
-select o.ord_no as 'Order_Numer', o.ord_date as 'Order_Date',o.purch_amt as 'Purchase_Amount',
-c.cust_name as 'Customer_Name', c.grade as 'Grade',
-s.name as 'Salesman',s.commission as 'Commission' from orders o
-JOIN customer c ON o.customer_id = c.customer_id
-JOIN salesman s ON o.salesman_id = s.salesman_id
+--3. Display the department number and total number of employees in each department
+--Department and No_of Employee in Each Department
+SELECT dep.department_name as 'Department', count(dep.department_name) as No_Of_Employees from employees emp
+join departments dep ON dep.department_id=emp.department_id group by dep.department_name;
 
+Select department_id, count(department_id) as No_Of_Employee from Employees group by department_id;
 
---6. Write a SQL query to display the item name, price, and company name of all the products
-select item_mast.pro_name as 'Product Name', pro_price as 'Price', company.com_name as 'Company Name' from item_mast
-join company on item_mast.pro_com=company.com_id
+--4 Display the department and Total salary of employess in each department
+--Department and Total Salary of each department
+select department_id,sum(salary)from employees group by department_id
 
---7. Write a SQL query to display the names of the company whose products have an average price 
---larger than or equal to Rs. 350.
-select AVG(pro_price) as 'Average Price', company.com_name as 'Company Name' from item_mast
-JOIN company ON item_mast.pro_com=company.com_id
-GROUP BY company.com_name HAVING AVG(pro_price)>=350
+SELECT dep.department_name as 'Department', SUM(emp.salary) as No_Of_Employees from employees emp
+join departments dep ON dep.department_id=emp.department_id group by dep.department_name;
 
---8. Write a query in SQL to display the first name and last name of each employee, 
---along with the name and sanction amount for their department
-select emp_details.emp_fname as 'First Name', emp_lname as 'Last Name',
-emp_department.dpt_name AS 'Department', dpt_allotment AS 'Amount'
-FROM emp_details
-JOIN emp_department ON emp_details.emp_DPT = emp_department.DPT_code
+--5 Dsiplay the employee's name who doesn't earn a commision. Order the result set without using the column name
 
 
+--6 Display the employees name,department,id and commision. If an Employee doesn't earn the commision then display as 'No commision'.Name the columns appropriately
 
+
+--7 Display the employee's name, salary and commision mulitplied by 2. If an Employee doesn't earn the commision then display as 'No commision'.Name the columns appropriately
+
+--8 Display the employee's name, department, id who have the first name as another employee in the same department
+select concat(first_name,last_name),department_id from employees
+
+--9 Display the sum of salaries of the employees working under each Manager
+select manager_id ,sum(salary) as total_salary from employees group by manager_id
+
+--10 Select the Managers name, the count of employees working and the department Id of the Manager
+
+
+--11 Select the employee name, department id, and the salary. Group the result with the manager name and the employee last name should have second letter 'a';
+select concat(m.first_name,m.last_name)as EmployeeName,m.department_id,m.salary,emp.first_name as manager_name
+from employees m,employees emp where m.manager_id=emp.employee_id and m.last_name like '_a%' 
+
+--12 Display the average of sum of the salaries and group the result with the department id. Order the result with the department id.
+select department_id,avg(salary)as AvgSalary from dbo.employees group by department_id  order by department_id
+
+--13 Select the maximum salary of each department along with department id.
+select department_id,max(salary)as MaxSalary from employees group by department_id
+
+--14 Display the commision, if not null display 10% fo salary, if null display a default value 1.
