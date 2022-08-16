@@ -100,7 +100,7 @@ select name from Artist where ArtistId in  (select ArtistId from Album group by 
 select count(ArtistId) as 'No of Artist' from Artist where artistid in(select ArtistId from Album group by artistid having (count(artistid) = 1))
 
 --4. Which artists have recorded songs longer than 5 minutes?
-select count(*) from Song where Duration<5.00
+select name from Artist where ArtistId in(Select AlbumId from Song  where SongId in(select SongId from Song where  Duration>5))
 
 --5. For each artist and album how many songs were less than 5 minutes long?
 select ArtistId from Album where albumid in(select AlbumId,sum(duration) as 'total duration' from Song  group by AlbumId order by AlbumId desc)
