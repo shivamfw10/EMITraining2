@@ -91,14 +91,19 @@ select * from RecordLabel
 select * from  Song
 
 --1. Which artist recorded the most songs?
+select Name from Artist where artistid=(select top 1 artistid from Album group by ArtistId having (count(ArtistId) > 1))
 
 --2. Which artist or artists have recorded the least number of songs?
+select name from Artist where ArtistId in  (select ArtistId from Album group by ArtistId having (count(ArtistId) = 1))
 
 --3. How many artists have recorded the least number of songs?
+select count(ArtistId) as 'No of Artist' from Artist where artistid in(select ArtistId from Album group by artistid having (count(artistid) = 1))
 
 --4. Which artists have recorded songs longer than 5 minutes?
+select count(*) from Song where Duration<5.00
 
 --5. For each artist and album how many songs were less than 5 minutes long?
+select ArtistId from Album where albumid in(select AlbumId,sum(duration) as 'total duration' from Song  group by AlbumId order by AlbumId desc)
 
 --6. In which year or years were the most songs recorded?
 
