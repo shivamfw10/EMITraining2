@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\bin\Debug\net6.0\Serialization_Deserialization.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\bin\Debug\net6.0\Serialization_Deserialization.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\bin\Debug\net6.0\Serialization_Deserialization.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\bin\Debug\net6.0\Serialization_Deserialization.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\bin\Debug\net6.0\Serialization_Deserialization.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\refint\Serialization_Deserialization.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\Serialization_Deserialization.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_Deserialization\obj\Debug\net6.0\ref\Serialization_Deserialization.dll
