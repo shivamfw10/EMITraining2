@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\bin\Debug\net6.0\Linq_101_Practice.exe
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\bin\Debug\net6.0\Linq_101_Practice.deps.json
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\bin\Debug\net6.0\Linq_101_Practice.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\bin\Debug\net6.0\Linq_101_Practice.dll
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\bin\Debug\net6.0\Linq_101_Practice.pdb
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.dll
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\refint\Linq_101_Practice.dll
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.pdb
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\Linq_101_Practice.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\Linq_101_Practice\Linq_101_Practice\obj\Debug\net6.0\ref\Linq_101_Practice.dll
