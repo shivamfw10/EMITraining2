@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\bin\Debug\net6.0\LINQ_Deferred_Immediate.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\bin\Debug\net6.0\LINQ_Deferred_Immediate.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\bin\Debug\net6.0\LINQ_Deferred_Immediate.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\bin\Debug\net6.0\LINQ_Deferred_Immediate.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\bin\Debug\net6.0\LINQ_Deferred_Immediate.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\refint\LINQ_Deferred_Immediate.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\LINQ_Deferred_Immediate.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Deferred_Immediate\obj\Debug\net6.0\ref\LINQ_Deferred_Immediate.dll
