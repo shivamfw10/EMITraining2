@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\bin\Debug\net6.0\Serialization_DeserializationXML.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\bin\Debug\net6.0\Serialization_DeserializationXML.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\bin\Debug\net6.0\Serialization_DeserializationXML.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\bin\Debug\net6.0\Serialization_DeserializationXML.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\bin\Debug\net6.0\Serialization_DeserializationXML.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\refint\Serialization_DeserializationXML.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\Serialization_DeserializationXML.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Serialization_DeserializationXML\obj\Debug\net6.0\ref\Serialization_DeserializationXML.dll
