@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\bin\Debug\net6.0\Join.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\bin\Debug\net6.0\Join.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\bin\Debug\net6.0\Join.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\bin\Debug\net6.0\Join.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\bin\Debug\net6.0\Join.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\refint\Join.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\Join.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Join\obj\Debug\net6.0\ref\Join.dll
