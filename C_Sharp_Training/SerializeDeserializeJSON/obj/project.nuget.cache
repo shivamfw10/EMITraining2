@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ndgTD5edD6dT+Yp9X614jZg3rkzSQztWVCt25ondXCfOPstV4SsfB5DT1ehlIWKLRHyO0genZnbMybsmIobnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shivam.vishvakarma\\source\\repos\\C_Sharp_Training\\SerializeDeserializeJSON\\SerializeDeserializeJSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shivam.vishvakarma\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

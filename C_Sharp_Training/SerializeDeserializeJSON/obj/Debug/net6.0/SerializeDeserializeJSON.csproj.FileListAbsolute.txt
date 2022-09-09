@@ -1,0 +1,17 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\SerializeDeserializeJSON.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\SerializeDeserializeJSON.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\SerializeDeserializeJSON.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\SerializeDeserializeJSON.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\SerializeDeserializeJSON.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.csproj.CopyComplete
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\refint\SerializeDeserializeJSON.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\SerializeDeserializeJSON.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\SerializeDeserializeJSON\obj\Debug\net6.0\ref\SerializeDeserializeJSON.dll
