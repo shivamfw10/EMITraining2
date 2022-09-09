@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\bin\Debug\net6.0\LoopsInCSharp.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\bin\Debug\net6.0\LoopsInCSharp.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\bin\Debug\net6.0\LoopsInCSharp.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\bin\Debug\net6.0\LoopsInCSharp.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\bin\Debug\net6.0\LoopsInCSharp.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\refint\LoopsInCSharp.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\LoopsInCSharp.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LoopsInCSharp\obj\Debug\net6.0\ref\LoopsInCSharp.dll
