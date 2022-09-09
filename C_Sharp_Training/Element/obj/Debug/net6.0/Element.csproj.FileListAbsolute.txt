@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\bin\Debug\net6.0\Element.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\bin\Debug\net6.0\Element.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\bin\Debug\net6.0\Element.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\bin\Debug\net6.0\Element.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\bin\Debug\net6.0\Element.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\refint\Element.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\Element.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Element\obj\Debug\net6.0\ref\Element.dll
