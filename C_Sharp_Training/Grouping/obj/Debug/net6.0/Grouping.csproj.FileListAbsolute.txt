@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\bin\Debug\net6.0\Grouping.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\bin\Debug\net6.0\Grouping.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\bin\Debug\net6.0\Grouping.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\bin\Debug\net6.0\Grouping.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\bin\Debug\net6.0\Grouping.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\refint\Grouping.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\Grouping.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Grouping\obj\Debug\net6.0\ref\Grouping.dll
