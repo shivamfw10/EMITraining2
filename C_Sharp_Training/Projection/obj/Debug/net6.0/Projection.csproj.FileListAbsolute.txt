@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\bin\Debug\net6.0\Projection.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\bin\Debug\net6.0\Projection.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\bin\Debug\net6.0\Projection.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\bin\Debug\net6.0\Projection.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\bin\Debug\net6.0\Projection.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\refint\Projection.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\Projection.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\Projection\obj\Debug\net6.0\ref\Projection.dll
