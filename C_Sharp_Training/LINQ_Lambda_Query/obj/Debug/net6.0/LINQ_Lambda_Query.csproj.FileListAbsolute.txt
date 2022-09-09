@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\bin\Debug\net6.0\LINQ_Lambda_Query.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\bin\Debug\net6.0\LINQ_Lambda_Query.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\bin\Debug\net6.0\LINQ_Lambda_Query.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\bin\Debug\net6.0\LINQ_Lambda_Query.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\bin\Debug\net6.0\LINQ_Lambda_Query.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\refint\LINQ_Lambda_Query.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\LINQ_Lambda_Query.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Lambda_Query\obj\Debug\net6.0\ref\LINQ_Lambda_Query.dll
