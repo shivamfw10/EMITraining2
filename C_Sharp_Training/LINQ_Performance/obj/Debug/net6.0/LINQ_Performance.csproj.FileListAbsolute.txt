@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\bin\Debug\net6.0\LINQ_Performance.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\bin\Debug\net6.0\LINQ_Performance.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\bin\Debug\net6.0\LINQ_Performance.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\bin\Debug\net6.0\LINQ_Performance.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\bin\Debug\net6.0\LINQ_Performance.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\refint\LINQ_Performance.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\LINQ_Performance.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\LINQ_Performance\obj\Debug\net6.0\ref\LINQ_Performance.dll

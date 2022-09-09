@@ -1,0 +1,15 @@
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\bin\Debug\net6.0\C_Sharp_LINQ.exe
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\bin\Debug\net6.0\C_Sharp_LINQ.deps.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\bin\Debug\net6.0\C_Sharp_LINQ.runtimeconfig.json
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\bin\Debug\net6.0\C_Sharp_LINQ.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\bin\Debug\net6.0\C_Sharp_LINQ.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.csproj.AssemblyReference.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.AssemblyInfoInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.AssemblyInfo.cs
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\refint\C_Sharp_LINQ.dll
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.pdb
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\C_Sharp_LINQ.genruntimeconfig.cache
+C:\Users\shivam.vishvakarma\source\repos\C_Sharp_Training\C_Sharp_LINQ\obj\Debug\net6.0\ref\C_Sharp_LINQ.dll
