@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  userUrl:'http://localhost:3000/user',
-  bookUrl:'http://localhost:3000/book',
-  requestUrl:'http://localhost:3000/requestedBook'
+  userUrl:'http://localhost:3001/user',
+  bookUrl:'http://localhost:3001/book',
+  requestUrl:'http://localhost:3001/requestedBook'
 };
 /*
  * For easier debugging in development mode, you can import the following file

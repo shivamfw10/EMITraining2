@@ -26,6 +26,7 @@ export class LandingPageComponent implements OnInit {
   year = this.currentDate.getFullYear();
   returnDate = (this.day + 3 + '/' + this.month + '/' + this.year);
   pickedupdate = (this.day + '/' + this.month + '/' + this.year);
+  
   userId = localStorage.getItem('userid');
   useremail = localStorage.getItem('email');
   username = localStorage.getItem('firstName')+' '+localStorage.getItem('lastName');
@@ -47,8 +48,10 @@ export class LandingPageComponent implements OnInit {
   this.requestBook.getBooks().subscribe(res=>{
       if(this.requestCount(this.useremail,res)<3){
         this.bookService.getBookById(id).subscribe(resp=>{
-          console.log(resp.id,'Hii');
-          this.requestBook.addRequestedBook(this.requestedBookPost(resp.id,resp.title,resp.author,resp.category,resp.imageUrl,this.useremail,this.username,this.pickedupdate,this.returnDate)).subscribe(res=>{
+          this.bookService.updateBook(id,resp.quantity-1).subscribe(response=>{
+            console.log(response)
+          });
+          this.requestBook.addRequestedBook(this.requestedBookPost(resp.title,resp.author,resp.category,resp.imageUrl,this.useremail,this.username,this.pickedupdate,this.returnDate)).subscribe(res=>{
             this.toastrService.showSuccess('Book request added successfully', `${"Return Date is "+this.returnDate}`);
             this.count++
           });
@@ -69,10 +72,10 @@ export class LandingPageComponent implements OnInit {
     return count;
   }
 
-  requestedBookPost(id:number,title:string,author:string,
+  requestedBookPost(title:string,author:string,
     category:string,imageUrl:string,
     userEmail:string,username:string,pickedupDate:string,returnDate:string){
-    return {id:id,title:title,author:author,category:category,
+    return {title:title,author:author,category:category,
             quantity:1,imageUrl:imageUrl,userEmail:userEmail,
           username:username,pickupDate:pickedupDate,returnDate:returnDate}
   }

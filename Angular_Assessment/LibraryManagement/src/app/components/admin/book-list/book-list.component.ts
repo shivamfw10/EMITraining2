@@ -26,7 +26,7 @@ export class BookListComponent implements OnInit{
       console.log(error);
     })
   }
-  public deleteBook(id:any){
+  public deleteBook(id:any):void{
     this.booksService.deleteBook(id).subscribe(res=>{
      {
       alert('Are you sure delete this data')

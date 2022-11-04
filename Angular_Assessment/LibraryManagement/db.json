@@ -101,6 +101,66 @@
       "username": "Satya Das",
       "pickupDate": "8/7/2022",
       "returnDate": "11/7/2022"
+    },
+    {
+      "id": 2,
+      "title": "I CAN I WILL",
+      "author": "Antonio Robins",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/41gsx2ICCML.jpg",
+      "userEmail": "s@gmail.com",
+      "username": "Satya Das",
+      "pickupDate": "8/7/2022",
+      "returnDate": "11/7/2022"
+    },
+    {
+      "title": "Forge Your Future",
+      "author": "APJ Abdul Kalam",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41v8uTm5GSL._SX322_BO1,204,203,200_.jpg",
+      "userEmail": "aniket@gmail.com",
+      "username": "Aniket Tiwari",
+      "pickupDate": "8/7/2022",
+      "returnDate": "11/7/2022",
+      "id": 3
+    },
+    {
+      "title": "I CAN I WILL",
+      "author": "Antonio Robins",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/41gsx2ICCML.jpg",
+      "userEmail": "aniket@gmail.com",
+      "username": "Aniket Tiwari",
+      "pickupDate": "8/7/2022",
+      "returnDate": "11/7/2022",
+      "id": 4
+    },
+    {
+      "title": "I CAN I WILL",
+      "author": "Antonio Robins",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/41gsx2ICCML.jpg",
+      "userEmail": "s@gmail.com",
+      "username": "Satya Das",
+      "pickupDate": "8/7/2022",
+      "returnDate": "11/7/2022",
+      "id": 5
+    },
+    {
+      "title": "Forge Your Future",
+      "author": "APJ Abdul Kalam",
+      "category": "Novel",
+      "quantity": 1,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41v8uTm5GSL._SX322_BO1,204,203,200_.jpg",
+      "userEmail": "rushi@gmail.com",
+      "username": "Rushikesh Yadav",
+      "pickupDate": "19/7/2022",
+      "returnDate": "22/7/2022",
+      "id": 6
     }
   ]
 }

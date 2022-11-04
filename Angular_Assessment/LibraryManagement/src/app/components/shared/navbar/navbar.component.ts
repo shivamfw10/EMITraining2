@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
     this.name = this.authService.isAuthenticated;
-    this.userName = localStorage.getItem('userName');
+    this.userName = localStorage.getItem('firstName');
     this.id = localStorage.getItem('userid');
   }
 
